@@ -10,7 +10,4 @@ export class AggregationsType {
 
   @Field(() => Int)
   completed: number;
-
-  @Field(() => Int, { deprecationReason: 'Use "completed" instead' })
-  totalTodosCompleted: number;
 }
